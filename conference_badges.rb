@@ -18,7 +18,7 @@ def assign_rooms(list_of_names)
   
   list_of_names.each_with_index { | name , index|
   
-  room_assignment[name] = index + 1 
+ room_assignment << 
   
   }
   
