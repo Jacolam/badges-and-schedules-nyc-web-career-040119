@@ -26,6 +26,4 @@ room_assignment
 
 end
   
-  
-  
-  
+def printer
