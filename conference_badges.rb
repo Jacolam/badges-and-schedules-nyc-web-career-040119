@@ -20,7 +20,7 @@ def assign_rooms(list_of_names)
   
  room_assignment << "Hello, #{name}! You'll be assigned to room #{index + 1))!"
   
-end 
+
 
   room_assignment
   
