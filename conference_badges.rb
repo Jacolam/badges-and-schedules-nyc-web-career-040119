@@ -14,7 +14,7 @@ end
 
 
 def assign_rooms(list_of_names)
-  room_assignment = hash.new
+  room_assignment = []
   
   list_of_names.each_with_index { |name , index|
   
