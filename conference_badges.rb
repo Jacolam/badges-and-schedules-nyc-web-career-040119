@@ -18,9 +18,11 @@ def assign_rooms(list_of_names)
   
   list_of_names.each_with_index { | name , index|
   
- room_assignment << 
+ room_assignment << "Hello, #{name}! You'll be assigned to room #{index + 1))!"
   
-  }
+end 
+
+  room_assignment
   
   
   
