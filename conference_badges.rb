@@ -26,7 +26,7 @@ room_assignment
 
 end
   
-def printer
-  batch_badge_creator
-  assign_rooms
+def printer(list_of_names)
+  batch_badge_creator(list_of_names)
+  assign_rooms(list_of_names)
 end
