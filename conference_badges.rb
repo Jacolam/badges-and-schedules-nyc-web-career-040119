@@ -15,8 +15,6 @@ end
 
 def assign_rooms(list_of_names)
   
-  rooms = (1..7)
-  room_assignment = []
   
   
   
