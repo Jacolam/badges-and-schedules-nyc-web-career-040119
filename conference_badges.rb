@@ -3,9 +3,8 @@ def badge_maker(name)
   return "Hello, my name is #{name}."
 end
 
-def batch_badge_creator(speakers)
-  
-  speakers.each do |attendee|
-    badge_maker(attendee)
+def batch_badge_creator(names_array)
+  names_array.collect do |name|
+    badge_maker(name)
   end
 end
