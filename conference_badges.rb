@@ -4,5 +4,10 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(list_of_names)
-  return list_of_names
+  speakers = list_of_names
+  list_of_names.each do badge_maker
+  arr_badge_message = []
+  arr_badge_message <<
+end
+
 end
