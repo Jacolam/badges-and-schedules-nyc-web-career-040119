@@ -14,3 +14,7 @@ def batch_badge_creator(list_of_names)
  badge_messages
  
 end
+
+def assign_rooms(list_of_names)
+  rooms = (1..7)
+  
